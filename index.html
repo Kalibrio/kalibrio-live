@@ -3,14 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kalibrio — Games, stories, music, and playful ideas</title>
-<meta name="description" content="Kalibrio Limited is an independent creative venture lab in Hong Kong. We create and publish original digital experiences — games, books, music, and stories for the screen.">
+<title>Kalibrio — AI-native studio for games, stories, and music</title>
+<meta name="description" content="Kalibrio Limited is an AI-native venture studio in Hong Kong. Autonomous AI agents and generative models design, build, test, and grow our original games, books, music, and series.">
 <link rel="stylesheet" href="/styles.css">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<meta property="og:title" content="Kalibrio — We make playful things">
-<meta property="og:description" content="Games, stories, music, and experimental ventures created in Hong Kong by Kalibrio Limited.">
+<meta property="og:title" content="Kalibrio — AI-native studio">
+<meta property="og:description" content="An AI-native venture studio in Hong Kong: agents and generative models build and operate our games, stories, and music.">
 <meta property="og:url" content="https://kalibrio.com">
 <script>document.documentElement.classList.remove('no-js');</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Kalibrio Limited","url":"https://kalibrio.com","description":"AI-native venture studio in Hong Kong building games, books, music, and series with autonomous AI agents and generative models.","founder":{"@type":"Person","name":"Ludovic Bodin"},"address":{"@type":"PostalAddress","addressLocality":"Hong Kong"},"knowsAbout":["AI agents","Generative AI","Large language models","Mobile games"]}</script>
 </head>
 <body>
 
@@ -29,6 +30,7 @@
       Kalibrio
     </a>
     <nav class="links">
+      <a class="navlink" href="/#ai">How we build</a>
       <a class="navlink" href="/#making">Making</a>
       <a class="navlink" href="/#about">About</a>
       <a class="navlink" href="/support/">Support</a>
@@ -44,42 +46,75 @@
     <div class="wrap">
       <div class="stage">
         <canvas id="dots" aria-hidden="true"></canvas>
-        <h1 class="fallback">We make playful things.</h1>
+        <h1 class="fallback">Playful things, built with AI.</h1>
       </div>
-      <p class="lead">Games, stories, music, and experimental ventures created in Hong&nbsp;Kong by Kalibrio&nbsp;Limited.</p>
+      <p class="lead">Kalibrio is an AI-native venture studio in Hong&nbsp;Kong. Autonomous agents and generative models design, build, test, and grow our games, stories, and music.</p>
       <div class="cta">
-        <a class="btn" href="#making">What we make</a>
-        <a class="btn ghost" href="#about">About Kalibrio</a>
+        <a class="btn" href="#ai">How we build</a>
+        <a class="btn ghost" href="#making">What we make</a>
       </div>
     </div>
   </div>
+
+  <!-- AI -->
+  <section id="ai">
+    <div class="wrap">
+      <span class="kicker">How we build</span>
+      <h2 class="title">A studio run by AI agents</h2>
+      <p class="sub">Large language models, image, video, and audio models are not side tools at Kalibrio. They are the production team, orchestrated by a small group of people.</p>
+      <div class="grid cols-3">
+        <article class="card ai">
+          <h3>Agent operations</h3>
+          <p class="desc">A fleet of LLM agents runs daily operations: analytics digests, app-store monitoring, level balancing, QA, and release gates. Humans approve policy, agents execute.</p>
+        </article>
+        <article class="card ai">
+          <h3>Generative content</h3>
+          <p class="desc">Image, video, and music models produce game art, tile sets, trailers, manga pages, and ad creatives. Automated reviewer agents grade every asset before it ships.</p>
+        </article>
+        <article class="card ai">
+          <h3>AI-driven growth</h3>
+          <p class="desc">Models read live data from ad networks and app stores, then propose and run experiments on creatives, difficulty, and monetization.</p>
+        </article>
+      </div>
+      <div class="grid cols-2">
+        <article class="card ai">
+          <h3>Our stack</h3>
+          <p class="desc">Multi-model by design: frontier LLM APIs for reasoning and code, open-weight models on cloud GPUs, and generative media models, wired together by our own agent orchestration, issue bus, and evaluation harness.</p>
+        </article>
+        <article class="card ai">
+          <h3>What we are scaling next</h3>
+          <p class="desc">From tens to hundreds of concurrent agents; fine-tuning models on gameplay telemetry for level generation and player modelling; real-time generated content inside our games.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
   <!-- Categories -->
   <section id="making">
     <div class="wrap">
       <span class="kicker">What we make</span>
-      <h2 class="title">Four ways to play</h2>
-      <p class="sub">We develop original intellectual properties and follow each idea into the form it wants to take.</p>
+      <h2 class="title">Four formats, one AI pipeline</h2>
+      <p class="sub">We develop original intellectual properties and use the same agent and generative-model stack to take each idea into the form it wants.</p>
 
       <div class="grid cols-4">
         <article class="card">
           <h3>Game</h3>
-          <p class="desc">Cozy, original games — small worlds built to invite curiosity and delight.</p>
+          <p class="desc">Original mobile and web puzzle games. Agents tune levels, run live ops, and test ad creatives.</p>
           <div class="doticon game" aria-hidden="true"></div>
         </article>
         <article class="card">
           <h3>Book</h3>
-          <p class="desc">Ideas worth keeping on paper — stories and playbooks, written with care.</p>
+          <p class="desc">Manga and playbooks, drawn and drafted with image and language models, edited by people.</p>
           <div class="doticon book" aria-hidden="true"></div>
         </article>
         <article class="card">
           <h3>Music</h3>
-          <p class="desc">Sunny, feel-good records — songs made to make people smile.</p>
+          <p class="desc">Feel-good records, with AI-assisted production and generated music videos.</p>
           <div class="doticon music" aria-hidden="true"></div>
         </article>
         <article class="card">
           <h3>TV series</h3>
-          <p class="desc">Stories in development for the screen — worlds too big for one page.</p>
+          <p class="desc">Series in development, pitched with AI storyboards and generated video.</p>
           <div class="doticon tv" aria-hidden="true"></div>
         </article>
       </div>
@@ -90,9 +125,9 @@
   <section id="about">
     <div class="wrap">
       <span class="kicker">About</span>
-      <h2 class="title">A venture lab for playful ideas</h2>
-      <p class="sub">Kalibrio Limited is an independent creative company founded by Ludovic Bodin in Hong Kong. We develop original intellectual properties and turn promising ideas into games, books, music, and digital experiences.</p>
-      <p class="sub" style="margin-top: 14px;">We work with a small network of artists, developers, writers, and creative partners, assembling the right team for each project.</p>
+      <h2 class="title">An AI-native venture studio</h2>
+      <p class="sub">Kalibrio Limited is an AI-native venture studio founded by Ludovic Bodin in Hong Kong. A small human team sets direction and taste; AI agents do most of the building, testing, and operating. Our flagship game, Trumble, is live on the App Store and the web.</p>
+      <p class="sub" style="margin-top: 14px;">We work with a small network of artists, developers, and writers, and with every frontier model that helps them go further.</p>
     </div>
   </section>
 
@@ -102,16 +137,16 @@
       <span class="kicker">Principles</span>
       <div class="grid cols-3">
         <div class="principle">
-          <h3>Play first</h3>
-          <p>We make experiences that invite curiosity and delight.</p>
+          <h3>Agents first</h3>
+          <p>If an agent can do the work, an agent does it. People review, decide, and set taste.</p>
         </div>
         <div class="principle">
-          <h3>Small by design</h3>
-          <p>Focused teams, clear ideas, and thoughtful execution.</p>
+          <h3>Small team, large compute</h3>
+          <p>We scale with models and infrastructure, not headcount.</p>
         </div>
         <div class="principle">
-          <h3>Made to last</h3>
-          <p>Original projects created with care for their audience.</p>
+          <h3>Ship and measure</h3>
+          <p>Every change goes live behind tests and metrics, so the agents learn from real players.</p>
         </div>
       </div>
     </div>
@@ -133,6 +168,7 @@
       <div>
         <h4>EXPLORE</h4>
         <ul>
+          <li><a href="/#ai">How we build</a></li>
           <li><a href="/#making">What we make</a></li>
           <li><a href="/#about">About</a></li>
         </ul>
@@ -191,8 +227,8 @@
       o.font = '700 ' + size + 'px "Helvetica Neue", Helvetica, Arial, sans-serif';
       o.textAlign = 'center'; o.textBaseline = 'middle';
       o.fillStyle = '#fff';
-      o.fillText('We make', w / 2, h / 2 - size * 0.62);
-      o.fillText('playful things.', w / 2, h / 2 + size * 0.62);
+      o.fillText('Playful things,', w / 2, h / 2 - size * 0.62);
+      o.fillText('built with AI.', w / 2, h / 2 + size * 0.62);
       var data = o.getImageData(0, 0, w, h).data;
       var step = Math.max(4, Math.round(size / 16));
       var pts = [];

@@ -194,3 +194,7 @@ footer.site .legal {
   footer.site .cols { grid-template-columns: 1fr; }
   .nav .links a.navlink { display: none; }
 }
+
+/* AI section cards: text-only */
+.card.ai { min-height: 0; }
+#ai .grid.cols-2 { margin-top: 18px; }
